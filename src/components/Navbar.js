@@ -22,7 +22,8 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <button className='navbar_scroll_btn' onClick={() => scrollToSection('experience')}>
           Experience
         </button>
-        <Link to="/beyondtech" className='navbar_txt'>Beyond Tech</Link>
+        {/*<Link to="/beyondtech" className='navbar_txt'>Beyond Tech</Link>*/}
+        <a className="navbar_txt" href="https://www.youtube.com/@vivsvibes">Beyond Tech</a>
         <a className="navbar_txt mailto" href="mailto:tranviviana@berkeley.edu">Contact</a>
         <button className='navbar_btn'>
           <Link to="/resume" className="navbar_txt">Resume</Link>

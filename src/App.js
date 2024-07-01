@@ -21,7 +21,7 @@ function App() {
     <>
       <div className={`${darkMode ? 'dark-mode' : ''}`}>
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      </div>
+      
     <div className="container">
       <Routes>
       <Route path="/" element={<MainPage />}/>
@@ -30,7 +30,7 @@ function App() {
       <Route path="/resume" element={<Resume />}/>
       </Routes>
     </div>
-    
+    </div>
     
     </>
   );

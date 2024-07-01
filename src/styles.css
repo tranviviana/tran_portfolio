@@ -1,0 +1,38 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+:root {
+    --blue2black: #CDDADF;    
+    --black2white: #000000; 
+    --white2blue: #ffffff; 
+}
+body {
+    font-family: "Montserrat";
+}
+.dark-mode {
+    --blue2black: #1b1111;   
+    --white2blue: #CDDADF;
+    --black2white: #ffffff; 
+    background-color: var(--white2blue);
+    transition: background-color 0.3s ease;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: var(--black2white);
+}
+/* navbar stylings*/
+.nav {
+    background-color: var(--black2white);
+    color: var(--blue2black);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+.site-title {
+    font-size: 2rem;
+  }

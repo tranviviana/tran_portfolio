@@ -1,6 +1,6 @@
 import React from "react";
 // updated resume can be found here: (change file path to update file )
-import myResume from "../images/generalImages/tranviviana(CS).pdf"
+import myResume from "../images/generalImages/tranviviana.pdf"
 import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 export default function Resume() {

@@ -1,3 +1,4 @@
+/*general stylings*/
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +15,7 @@
     --black2white: #ffffff; 
     background-color: var(--white2blue);
     transition: background-color 0.3s ease;
-    height: 100%
+    height: 100%;
 }
 body {
     font-family: "Montserrat";
@@ -25,6 +26,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: var(--black2white);
 }
+
+
 /* navbar stylings*/
 .nav {
     background-color: var(--black2white);
@@ -43,12 +46,13 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     font-family: 'Montserrat';
     text-decoration: none;
+    cursor: pointer;
 }
 .navbar_scroll_btn {
-    
     padding: 0;
 }
 .navbar_btn, .toggle-dark-mode  {
+    cursor: pointer;
     font-size: 1rem;
     font-weight: lighter;
     color: var(--blue2black);

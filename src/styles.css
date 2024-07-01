@@ -14,6 +14,7 @@
     --black2white: #ffffff; 
     background-color: var(--white2blue);
     transition: background-color 0.3s ease;
+    height: 100%
 }
 body {
     font-family: "Montserrat";

@@ -7,7 +7,8 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
       }
     };
     
-    return (<nav className ="nav">
+    return (
+    <nav className ="nav">
         {/*turn into toggle graphic in the future*/}
         <button className="navbar_btn toggle-dark-mode" onClick={toggleDarkMode}>
           {darkMode ? 'Inverted' : 'Regular'}

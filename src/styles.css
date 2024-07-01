@@ -1,16 +1,12 @@
 *, *::after, *::before {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 :root {
     --blue2black: #CDDADF;    
     --black2white: #000000; 
     --white2blue: #ffffff; 
-}
-body {
-    font-family: "Montserrat";
-    margin: 0;
-    padding: 0;
-    background-color: var(--white2blue);
 }
 .dark-mode {
     --blue2black: #1b1111;   
@@ -19,8 +15,10 @@ body {
     background-color: var(--white2blue);
     transition: background-color 0.3s ease;
 }
-
-
+body {
+    font-family: "Montserrat";
+    background-color: var(--white2blue);
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     font-weight: 700;
@@ -32,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--blue2black);
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: stretch;    
+    padding: 1rem;
 }
 
 .navbar_txt, .navbar_scroll_btn{
@@ -45,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .navbar_scroll_btn {
-    margin-top: -5px;
+    
     padding: 0;
 }
 .navbar_btn, .toggle-dark-mode  {
@@ -56,12 +55,14 @@ h1, h2, h3, h4, h5, h6 {
     border: 1.5px, solid, var(--blue2black);
     border-radius: 0.3rem;
     font-family: 'Montserrat';
-    margin-top: -3px;
+    padding: 0.5rem;
+   
 }
 .navbar-options{
     display: flex;
     justify-content: space-between; 
     gap: 10px; 
+    align-items: center;
 }
 
 

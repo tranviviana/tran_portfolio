@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import './FlipImage.css'; // Assuming you have a CSS file named FlipImage.css
+import './FlipImage.css'; 
+import me from '../images/generalImages/me.png'
+import doggos from '../images/generalImages/doggos.png'
 
 export default function FlipImage() {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -9,13 +11,13 @@ export default function FlipImage() {
   };
 
   return (
-    <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
+    <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onMouseEnter={handleFlip} onMouseLeave={handleFlip}>
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <img src="frontImage.jpg" alt="Front Image" />
+          <img src={me} alt="Me!" style={{ width: '100%', height: '100%' }}/>
         </div>
         <div className="flip-card-back">
-          <img src="backImage.jpg" alt="Back Image" />
+          <img src={doggos} alt="My Fur Friends!"  style={{ width: '100%', height: '100%' }}/>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react"
+import FlipImage from "../components/FlipImage"
 export default function MainPage() {
     return (
         <>

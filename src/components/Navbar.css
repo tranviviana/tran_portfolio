@@ -22,6 +22,10 @@
     cursor: pointer;
     padding: 0.5rem;
 }
+.outline {
+    border: 2px solid var(--blue2black);
+    border-radius: 0.3rem;
+}
 .navbar_scroll_btn {
     padding: 0;
 }

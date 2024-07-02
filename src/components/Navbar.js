@@ -10,7 +10,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     
     return (
       <nav className ="nav">
-         <Link to="/" className="navbar_txt">Home</Link>
+         <Link to="/" className="navbar_txt outline">Home</Link>
       
         <ul className='navbar-options'>
           {/*turn into toggle graphic in the future*/}
@@ -26,7 +26,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <a className="navbar_txt" href="https://www.youtube.com/@vivsvibes">Beyond Tech</a>
         <a className="navbar_txt mailto" href="mailto:tranviviana@berkeley.edu">Contact</a>
         <button className='navbar_btn'>
-          <Link to="/resume" className="navbar_txt">Resume</Link>
+          <Link to="/resume" className="navbar_txt outline">Resume</Link>
         </button>
        
         </ul>

@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom"
+import './Navbar.css'; 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
     const scrollToSection = (id) => {
       const element = document.getElementById(id);
@@ -9,14 +10,13 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     
     return (
       <nav className ="nav">
-        {/*turn into toggle graphic in the future*/}
+         <Link to="/" className="navbar_txt">Home</Link>
+      
+        <ul className='navbar-options'>
+          {/*turn into toggle graphic in the future*/}
         <button className="navbar_btn toggle-dark-mode" onClick={toggleDarkMode}>
           {darkMode ? 'Inverted' : 'Regular'}
         </button>
-      
-        <ul className='navbar-options'>
-
-        <Link to="/" className="navbar_txt">Home</Link>
         <Link to="/allprojects" className='navbar_txt'>All Projects</Link>
 
         <button className='navbar_scroll_btn' onClick={() => scrollToSection('experience')}>

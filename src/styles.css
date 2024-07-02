@@ -28,50 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* navbar stylings*/
-.nav {
-    background-color: var(--black2white);
-    color: var(--blue2black);
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;    
-    padding: 1rem;
-    margin-bottom: 1rem;
-    position: sticky;
-    top: 0;
-}
-
-.navbar_txt, .navbar_scroll_btn{
-    font-size: 1rem;
-    font-weight: lighter;
-    color: var(--blue2black);
-    background-color: var(--black2white);
-    border: none;
-    font-family: 'Montserrat';
-    text-decoration: none;
-    cursor: pointer;
-}
-.navbar_scroll_btn {
-    padding: 0;
-}
-.navbar_btn, .toggle-dark-mode  {
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--blue2black);
-    background-color: var(--black2white);
-    border: 1.5px, solid, var(--blue2black);
-    border-radius: 0.3rem;
-    font-family: 'Montserrat';
-    padding: 0.5rem;
-   
-}
-.navbar-options{
-    display: flex;
-    justify-content: space-between; 
-    gap: 10px; 
-    align-items: center;
-}
+/* Resume Page Stylings*/
 .resume {
     width:50%;
     height:87vh;

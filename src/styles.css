@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 .resume {
     width:50%;
     height:87vh;
+    z-index: 0;
 
 }
 .resume-div {
@@ -39,6 +40,26 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-/*Main page Stylings*/
+/*Main Page Stylings*/
+
 /*Hero Section*/
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh; 
+}
+
+.hero-left {
+    grid-column: 1; 
+}
+.hero-right {
+    grid-column: 2;
+}
+
+
+
+
+/*End of Main Page Styling*/
 

@@ -8,6 +8,7 @@
     margin-bottom: 1rem;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .navbar_txt, .navbar_scroll_btn{

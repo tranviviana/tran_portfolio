@@ -1,7 +1,9 @@
 .flip-card {
-    width: 200px;
-    height: 200px;
+    position: relative;
+    width: 25vw;
+    height: 50vh;
     perspective: 1000px;
+    z-index: 0;
   }
   
   .flip-card-inner {

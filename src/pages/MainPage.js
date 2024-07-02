@@ -11,8 +11,10 @@ export default function MainPage() {
                     <h1> Viviana</h1>
                 </div>
                 <h3>Student | Front-End Developer | Programmer | Electrical Engineer</h3>
-                <Link to="/resume" className="navbar_txt outline">Resume</Link>
-                <h6 style={{fontStyle: 'italic', fontWeight: '400'}}>Update: Developing Software for ECG Analysis, Exploring the Vast Field of Technology, and Continuing Work at theCoderSchool</h6>
+                <h6 style={{fontStyle: 'italic', fontWeight: '400'}}>Currently: Developing Software for ECG Analysis, Exploring the Vast Concentrations Within Technology, and Continuing Work at theCoderSchool</h6>
+                <div className='hero-resume-div'>
+                <Link to="/resume" className="hero-resume-btn" >Resume</Link>
+                </div>
             </div>
             <div className='hero-right'>
                 <FlipImage/>

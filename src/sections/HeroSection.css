@@ -1,0 +1,47 @@
+/*Hero Section*/
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    justify-items: center;
+    height: 60vh; 
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+}
+.name-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+    
+  }
+.hero-left {
+    grid-column: 1; 
+    
+}
+.hero-right {
+    grid-column: 2;
+}
+.hero-resume-div{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-resume-btn {
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight:500;
+    color: var(--blue2black);
+    background-color: var(--white2blue);
+    font-family: 'Montserrat';
+    align-self: center;
+    text-decoration: none;
+    border: 2px solid var(--blue2black);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    
+
+}

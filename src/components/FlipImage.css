@@ -1,6 +1,6 @@
 .flip-card {
     position: relative;
-    width: 25vw;
+    width: 30vw;
     height: 50vh;
     perspective: 1000px;
     z-index: 0;

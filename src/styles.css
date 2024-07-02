@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5, h6 {
     width:50%;
     height:87vh;
     z-index: 0;
-
 }
 .resume-div {
     display: flex;
@@ -53,12 +52,17 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr 1fr; 
     align-items: center;
     justify-items: center;
-    height: 50vh; 
+    height: 60vh; 
 }
-
+.name-container {
+    display: flex;
+    gap: 0.5rem;
+    
+  }
 .hero-left {
     grid-column: 1; 
 }
+
 .hero-right {
     grid-column: 2;
     

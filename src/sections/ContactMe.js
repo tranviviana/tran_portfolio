@@ -11,9 +11,9 @@ export default function ContactMe() {
         <>
         <h1>Contact Me</h1>
         <div className='ContactModals'>
-            <Modal open_text='tranviviana@berkeley.edu' closed_image={gmail} />
-            <Modal open_text='https://www.linkedin.com/in/viviana-tran' closed_image={linkedin} />
-            <Modal open_text='https://github.com/tranviviana' closed_image={github} />
+            <Modal open_text='tranviviana@berkeley.edu' closed_image={gmail} link_text='mailto:tranviviana@berkeley.edu' />
+            <Modal open_text='https://www.linkedin.com/in/viviana-tran' closed_image={linkedin} link_text='https://www.linkedin.com/in/viviana-tran' />
+            <Modal open_text='https://github.com/tranviviana' closed_image={github} link_text='https://github.com/tranviviana'/>
         </div>
         </>
     )

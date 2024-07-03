@@ -20,14 +20,13 @@ export default function Modal({ closed_image, open_text, link_text }) {
             {isOpen && (
                 <div className={`modal ${isOpen ? 'open' : ''}`} id="modal">
                     <div className="modal-header">
-                        <div className="title">URL</div>
                         <button onClick={handleCloseModal} className="close-button">&times;</button>
                     </div>
                     <div className="modal-body">
-                        {open_text}
-                        <a href={link_text} target="_blank" rel="noopener noreferrer">
-                            <button>Send Me There</button>
-                        </a>
+                    <div className="title">URL: {open_text}</div>
+                        <div><a href={link_text} target="_blank" rel="noopener noreferrer">
+                            <button id='send-btn'>Send Me There</button>
+                        </a></div>
                     </div>
                 </div>
             )}

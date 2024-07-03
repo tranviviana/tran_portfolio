@@ -69,3 +69,11 @@
     opacity: 1;
     visibility: visible;
 }
+.contact-images {
+    height: 5vh;
+    width: 5vw;
+
+}
+.img-btn {
+    border: none;
+}

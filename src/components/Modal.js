@@ -14,8 +14,8 @@ export default function Modal({ closed_image, open_text, link_text }) {
 
     return (
         <div>
-            <button onClick={handleOpenModal}>
-                <img src={closed_image} alt="Closed Modal" />
+            <button className='img-btn' onClick={handleOpenModal}>
+                <img className='contact-images' src={closed_image} alt="Closed Modal" />
             </button>
             {isOpen && (
                 <div className={`modal ${isOpen ? 'open' : ''}`} id="modal">

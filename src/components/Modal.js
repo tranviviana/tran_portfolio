@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Modal.css';
-{/*Fix ease of the modal in the future*/}
+{/*Fix ease of modal and click outside of modal to close*/}
 export default function Modal({ closed_image, open_text, link_text }) {
     const [isOpen, setIsOpen] = useState(false);
 

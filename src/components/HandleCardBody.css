@@ -15,7 +15,22 @@
   max-height: 90vh;
   overflow-y: auto;
 }
+.cards {
+  height: 40vh;
+  width: 20vw;
+  background-color: transparent;
+  border-radius: 0.2rem;
+  border: .4rem solid var(--blue2black);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.cards:hover {
+  transform: scale(1.1);
 
+}
 .career-modal.open {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
@@ -36,7 +51,7 @@
 }
 
 .overlay {
-  position: fixed;  /* Change this to fixed */
+  position: fixed;  
   top: 0;
   left: 0;
   width: 100%;

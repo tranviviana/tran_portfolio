@@ -20,7 +20,7 @@ export default function HandleCardBody({ items, image, name }) {
     return (
         
             <div className='career-categories'>
-            <button onClick={handleOpenModal}>
+            <button onClick={handleOpenModal} className='cards'>
             <CardBody image={image} name={name}/>
             </button>
                 {isOpen && (

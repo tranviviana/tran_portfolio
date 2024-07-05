@@ -4,11 +4,12 @@ import ee from '../images/aboutMe/EE.png'
 import frontend from '../images/aboutMe/frontend.png'
 import innovator from '../images/aboutMe/Innovator.png'
 import HandleCardBody from '../components/HandleCardBody'
+import './AboutMe.css'
 export default function AboutMe() {
     return (
-        <div>
+        <div className='about-me-styling'>
         <h1>About Me</h1>
-        <div>
+        <div className='about-me-cards'>
         <HandleCardBody items={projectdata} image={cs} name='Software'/>
         <HandleCardBody items={projectdata} image={ee} name='Electrical Engineering'/>
         <HandleCardBody items={projectdata} image={frontend} name='Front-End Developer'/>

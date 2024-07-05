@@ -1,0 +1,17 @@
+.about-me-styling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white2blue);
+    gap: 2rem;
+}
+.about-me-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+ 

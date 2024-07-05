@@ -7,10 +7,12 @@ import AboutMe from "../sections/AboutMe"
 export default function MainPage() {
     return (
         <>
+        <div className="sections">
         <HeroSection/>
         <AboutMe />
         <Skills/>
         <ContactMe/>
+        </div>
         </>
     )
 }

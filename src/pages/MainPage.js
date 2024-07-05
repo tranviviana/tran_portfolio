@@ -8,7 +8,7 @@ export default function MainPage() {
     return (
         <>
         <HeroSection/>
-        <AboutMe/>
+        <AboutMe />
         <Skills/>
         <ContactMe/>
         </>

@@ -9,7 +9,10 @@ export default function AboutMe() {
         <div>
         <h1>About Me</h1>
         <div>
-            <HandleCardBody items={projectdata} image={cs} name='Software'/>
+        <HandleCardBody items={projectdata} image={cs} name='Software'/>
+        <HandleCardBody items={projectdata} image={ee} name='Electrical Engineering'/>
+        <HandleCardBody items={projectdata} image={frontend} name='Front-End Developer'/>
+        <HandleCardBody items={projectdata} image={innovator} name='Innovator'/>
         </div>
         </div>
     )

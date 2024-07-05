@@ -7,6 +7,7 @@ export default function HandleCardBody({ items, image, name }) {
 
     const handleOpenModal = () => {
         setIsOpen(true);
+        
     };
 
     const handleCloseModal = () => {
@@ -18,8 +19,8 @@ export default function HandleCardBody({ items, image, name }) {
 
     return (
         
-            <div>
-            <button className='career-categories' onClick={handleOpenModal}>
+            <div className='career-categories'>
+            <button onClick={handleOpenModal}>
             <CardBody image={image} name={name}/>
             </button>
                 {isOpen && (

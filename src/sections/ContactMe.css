@@ -8,6 +8,7 @@
 .contact-styling {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 1rem; 
     align-items: center;
+    margin-bottom: 2rem;
 }

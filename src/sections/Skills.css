@@ -16,14 +16,17 @@
   }
   
   .skill-images {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     object-fit: contain;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     font-weight: lighter;
-    
-}
+    transition: transform 0.3s ease-in-out;
+  }
+  .skill-images:hover {
+    transform: scale(1.2);
+  }
   

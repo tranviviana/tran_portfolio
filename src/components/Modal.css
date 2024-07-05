@@ -5,13 +5,14 @@
     transform: translate(-50%, -50%) scale(0.8);
     opacity: 0;
     z-index: 1000;
-    background-color: #fff;
+    background-color: var(--white2blue);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 80%;
     max-width: 600px;
     transition: transform 1s ease-in, opacity 1s ease-in;
+    
 }
 
 .modal.open {
@@ -31,6 +32,7 @@
     flex-direction: column; 
     text-align: center;
     align-items: center;
+    gap: 1.5rem;
 }
 
 .close-button {
@@ -72,8 +74,12 @@
 .contact-images {
     height: 5vh;
     width: 5vw;
+    
 
 }
 .img-btn {
     border: none;
+    background-color: transparent;
+    color: none;
+    cursor: pointer;
 }

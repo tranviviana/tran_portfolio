@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './HandleCardBody.css'
 import CardBody from './CardBody.js';
 
+
+
 export default function HandleCardBody({ items, image, name }) {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -38,6 +40,7 @@ export default function HandleCardBody({ items, image, name }) {
                                         <h3>Task: </h3>
                                         <p>{item.task}</p>
                                     </div>
+                                    <img src={item.picture} alt={item.nameOfProject} className='project-picture'/>
                                     <div className='info'>
                                         <h3>Challenges Encountered: </h3>
                                         <p>{item.challenges}</p>
@@ -45,6 +48,12 @@ export default function HandleCardBody({ items, image, name }) {
                                     <div className='info'>
                                         <h3>Process and Outcome: </h3>
                                         <p>{item.outcomeuniqueAdditions}</p>
+                                    </div>
+                                    <div className='info'>
+                                    <h3>Link: </h3>
+                                    {item.resource && (
+                                        <a href={item.resource} target="_blank" rel="noopener noreferrer">{item.resource}</a>
+                                        )}
                                     </div>
                                     <div className='info'>
                                         <h3>Topics Used: </h3>

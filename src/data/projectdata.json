@@ -1,272 +1,309 @@
 [
     {
-        "id": 1,
+        "column1": 1,
         "year": "Summer 2024",
         "nameOfProject": "Running Button",
         "task": "Create front-end logic and design for a button that cannot be pressed or caught.",
         "topicsUsed": "React, CSS, HTML, JS",
         "challenges": "1. Understanding syntax for frontend of the running button. 2. CSS box-styling.",
         "outcomeuniqueAdditions": "I developed an interactive 'evil button' that dynamically adjusts its position away from the mouse cursor and responds with an alert message and window closure upon being clicked. This demonstrates proficiency in DOM manipulation, event handling, and user interface responsiveness, showcasing essential skills for modern web development. This project taught me skills in event handling and grid calculation.",
-        "groupings": "Front-End Developer"
+        "groupings": "Front-End Developer",
+        "resource": "https://github.com/tranviviana/webdevelopment.git",
+        "pictures": "../images/projectPics/runbutton.png"
     },
     {
-        "id": 2,
+        "column1": 2,
         "year": "Summer 2024",
         "nameOfProject": "Pong",
         "task": "Replicate pong game, with other player being computer. Visually showcase outcomes on local browser. ",
         "topicsUsed": "React, CSS, HTML, JS, user-input",
         "challenges": "1. Having the computer respond to the movement of the ball. 2. Having the ball regenerate and bounce on the walls.",
         "outcomeuniqueAdditions": "I implemented a Pong-like game using object-oriented programming. I created classes for the game's elements—such as Ball and Paddle—with methods for updating positions, handling collisions, and resetting game states, demonstrating proficiency in game development and interactive web applications. This project had a lot of moving  parts so a skill I applied was modulation and full application development.",
-        "groupings": "Front-End Developer"
+        "groupings": "Front-End Developer",
+        "resource": "https://github.com/tranviviana/webdevelopment.git",
+        "pictures": "../images/projectPics/pong.png"
     },
     {
-        "id": 3,
+        "column1": 3,
         "year": "Summer 2024",
         "nameOfProject": "Computer Rock Paper Scissors",
         "task": "Create fully functional rock, paper, scissors game where users can choose between the three options and visually show outcome overtime.",
         "topicsUsed": "CSS, HTML, JS, Random generation, user-input",
         "challenges": "1. Keeping record of past rounds. 2. Grid-styling.",
         "outcomeuniqueAdditions": "I implemented a dynamic Rock-Paper-Scissors game using JavaScript, leveraging event listeners and DOM manipulation with dataset attributes for user selections. The game logic includes real-time score updates and result displays using dynamically generated HTML elements, enhancing interactivity and visual feedback for the user interface. I practiced query selection and manipulation.",
-        "groupings": "Front-End Developer"
+        "groupings": "Front-End Developer",
+        "resource": "https://github.com/tranviviana/webdevelopment.git",
+        "pictures": "../images/projectPics/rockpaperscissors.png"
     },
     {
-        "id": 4,
+        "column1": 4,
         "year": "Spring 2024",
         "nameOfProject": "Rotating Button",
         "task": "Create a picture that rotates when hovering from scratch.",
         "topicsUsed": "CSS, HTML",
         "challenges": "1. CSS documentation filtering 2. Connecting CSS to HTML.",
         "outcomeuniqueAdditions": "I utilized advanced CSS properties like perspective and transform-style to create a 3D flipping effect on a button element (btn). This effect is triggered on hover (btn:hover), rotating the button around the X-axis and translating it vertically (translateY). Each side of the button (side class) is styled differently (default-side and hover-side), using backface-visibility to control visibility and transform for positioning and rotation in the 3D space. This project enhanced my proficiency in CSS transitions and transforms, providing a hands-on learning experience in creating interactive and visually appealing UI elements.",
-        "groupings": "Front-End Developer"
+        "groupings": "Front-End Developer",
+        "resource": "https://github.com/tranviviana/webdevelopment.git",
+        "pictures": "../images/projectPics/rotatingbutton.png"
     },
     {
-        "id": 5,
+        "column1": 5,
         "year": "Spring 2024 ",
         "nameOfProject": "Youtube Clone ",
         "task": "Replicate design of Youtube locally.",
         "topicsUsed": "CSS, HTML",
         "challenges": "1. CSS grid-styling. 2. Repeating code multiple times while keeping the elegancy of the code.",
         "outcomeuniqueAdditions": "I exploited the advantages of CSS stylings and HTML ids/classes to replicate Youtube. The code itself, has a lot of repitition; however this project taught me skills in styling.",
-        "groupings": "Front-End Developer"
+        "groupings": "Front-End Developer",
+        "resource": "https://github.com/tranviviana/webdevelopment.git",
+        "pictures": "../images/projectPics/youtubeclone.png"
     },
     {
-        "id": 6,
+        "column1": 6,
         "year": "Spring 2024",
         "nameOfProject": "Kachow",
         "task": "Program and compare single-threaded, multi-threaded, and multi-process designs for 2D Convolution. Create custom tests to ensure functionality.",
         "topicsUsed": "C, Hardware, Parallelism, timing, function unrolling/inlining, multi-processing",
         "challenges": "1. Changes to code logic that increase speed up. 2. Finding optimal memory access locaitons. ",
         "outcomeuniqueAdditions": "In collaboration with a partner we did 4 for loops in our single-threaded program to access a smaller matrix within a larger one since in C array indexing is dependent on pointer location so a 2d array becomes offsets from a starting point. We expanded on this idea in our multi-threaded program by loop unrolling, thread implementation, and function inlining. Finally, we used a manager employee technique to independently assign tasks to processors in our multi-processor technique. This project taught me and allowed me to apply skills in parallel processing.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/kachow.png"
     },
     {
-        "id": 7,
+        "column1": 7,
         "year": "Spring 2024",
         "nameOfProject": "CPU",
         "task": "Design 5-step data-pathway with 2-stage pipelining CPU in logism from scratch. Design custom tests that individually check ALU, immediate generator, PC selector, and register functionality.",
         "topicsUsed": "Logism, Boolean Algebra, unit-testing, CPU, Partnership",
         "challenges": "1. Hazards and pipelining 2. ROM logic and boolean algebra simplifications ",
         "outcomeuniqueAdditions": "I utilized Logism for the structure of the CPU and excel/ROM for the ALU integration. This project required a deep understanding of datapathways, boolean algebra, modulation, and Risc-V. Like the Risc-V project, this project honed my skills in debugging.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/cpu.png"
     },
     {
-        "id": 8,
+        "column1": 8,
         "year": "Spring 2024",
         "nameOfProject": "Cs61Classify (Risc-V)",
         "task": "Solve a series of linear algebra challenges such as taking the absolute value, dot product, reLU, reading matrices, and writing matrices in Risc-V",
         "topicsUsed": "Risc-V, loops, pointers, linear algebra",
         "challenges": "1. Pointer location (debugging) 2. Deconstructing instructions to datapathway understandable tasks.",
         "outcomeuniqueAdditions": "For this project, I did a series of matrix operations within Risc-V, including but not only dot products, transposes, and loading. Because Risc-V is closer to the computer hardware, this required extensive documentation, iteration, and debugging. This project taught me honed my ability of debugging.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/riscv.png"
     },
     {
-        "id": 9,
+        "column1": 9,
         "year": "Spring 2024",
         "nameOfProject": "Snek",
         "task": "Replicate popular game Snake where generated snakes on the board can \"eat\" characters to grow and can run into other characters to \"die\" ",
         "topicsUsed": "C, function-oriented programming, pointers, data-types",
         "challenges": "1. Pointer arithmetic. 2. Basics of C ",
         "outcomeuniqueAdditions": "This was a replication of the snake game, in which I was in control of the snake movement and board state. In the first program, I managed snake movement and board interactions, and handle file input/output for saving and loading game states. The second program involved parsing and evaluating simple arithmetic expressions using a stack-based approach in C to update the game state throughout, demonstrating proficiency in algorithmic problem-solving and fundamental data structures. This project taught me skills in stack manipulation.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/snek.png"
     },
     {
-        "id": 10,
+        "column1": 10,
         "year": "Spring 2024",
         "nameOfProject": "GrocerEYES",
         "task": "In teams of 5, incubate the growth of a student run startup utilizing advice from entrepreneur mentors and creating a pitch for a panel of 5 investors.",
         "topicsUsed": "Research, Iteration, Presentation, Communication, Venture Fundamentals",
         "challenges": "1. Networking with VC's entrepreneurs, and mentors 2. Integrating consumer perspective.",
         "outcomeuniqueAdditions": "I applied venture fundamentals such as market research, voice tonality, financial predictions, and value proposition in a 2 minute pitch to a panel of VC's in a final competition. Our team received praise from Yura Hwang, Buddy Burke, and others. This project taught me the importance of network and connections.",
-        "groupings": "Innovator"
+        "groupings": "Innovator",
+        "resource": "https://docs.google.com/presentation/d/1OVxY3BJ4gwSHxAbOs7ser7g47oNbTwe5-V-9cCzHJ_o/edit?usp=sharing",
+        "pictures": "../images/projectPics/grocereys.jpg"
     },
     {
-        "id": 11,
+        "column1": 11,
         "year": "Fall 2023 ",
         "nameOfProject": "Voice-Controlled Car",
         "task": "Design hardware and software logic for 9-volt battery powered car such that it takes in 5 different words and does 5 different corresponding actions.",
         "topicsUsed": "C++, Arduino, Jupyter Notebook, Breadboarding, PCA, K-Clustering (classification), oscilloscopes, ammeters/voltmeters, filtering, circuitry, sensing",
         "challenges": "1. Training classification audio recordings and robots on different physical and audio environments 2. Working with arguino pins to connect hardware to software.",
         "outcomeuniqueAdditions": "For this project, I had direct application of AC to DC circuit creation, power conversion, and filter circuit development to create the hardware of this project. Furthermore, using the arduino, my partner and I developed a PCA program to classify sound patterns and convert it to motion. This project taught me the correlation between hardware and software along with concepts that span across AI/ML, signal processing, hardware engineering, and mathematics.",
-        "groupings": "Electrical Engineer"
+        "groupings": "Electrical Engineer",
+        "pictures": "../images/projectPics/voicecar.jpg"
     },
     {
-        "id": 12,
+        "column1": 12,
         "year": "Fall 2023",
         "nameOfProject": "World Maze Game",
         "task": "Create a random seed generated tile game that users can navigate through. Design custom tiles and game desgin ",
         "topicsUsed": "Java, Git/github, Partnership, Class Creation, Interfaces, Random, User-input ",
         "challenges": "1. Modulating tasks in partnership 2. Creating hallways that connected every randomly generated room without ending without a room at the end.",
         "outcomeuniqueAdditions": "In collaboration with a partner, we created a tile-based maze game that was dependent on a long seed that was inputted in the game. To do this, we created classes for different components within the game like the larger \"rooms\" the \"hallways\", the avatar, and the enemies in the game. A unique component of the game was the ability for users to replay the game after they closed it. We did this through recording the movements in an array and then doing a .txt file save. When the program is run, it parses through the .txt and continues taking user input. The main skill I learned from this project was design documentation and modulation.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/mazegame.png"
     },
     {
-        "id": 13,
+        "column1": 13,
         "year": "Fall 2023",
         "nameOfProject": "Ngrams",
         "task": "Design backend that explores the history of word usage in English texts by parsing through large data file and returning connected words, frequencies, and filtered words.",
         "topicsUsed": "Java, Git/github, Recursions, Data Analysis, Filtering, Classes",
         "challenges": "1. Runtime 2. Returning connected words when inputted word is in two different node branches.",
         "outcomeuniqueAdditions": "This project resembled a filtering system so the two ways one can filter the words is via time or via relationship. I focused on one each time beginning with the time relationship. To do this, I created a treemap that relates the year to the quantity of times a word was used. Afterwards I utilized a hashmap to connect the words to the years and quantity of times a word was used. By doing so, users can filter a word through time period or see the common trends with the word. To filter the words via relationship with other words, I created a directed graph by utilizing Java's graph class and mapping id to words and words to id. In doing this, I abstracted the words themselves and accessed them only when the program completely find all the related nodes allowing for word relationship filtering. The main skill I learned was exploiting the tree/map relationship.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/ngrams.png"
     },
     {
-        "id": 14,
+        "column1": 14,
         "year": "Fall 2023",
         "nameOfProject": "Java Deque Development",
         "task": "Integrate Java's linked list and array structure from scratch. Utilizing the two structures, create a MaxArrayDeque that takes in either structure and returns a comparator and iterator.",
         "topicsUsed": "Java, Data Structures, Git/github, Recursion, Classes, Interfaces, Object",
         "challenges": "1. Java documentation 2. Interface Inheritance",
         "outcomeuniqueAdditions": "In this project, both the linkedlist and array deque inherited from the deque interface so I utilized Java's API to outline the methods needed between both data structures. Furthermore, for methods specific to the data structure I programmed them in their respective classes. Since not all methods or variables are accessible to the public, the main skill I learned from this project was exploiting private and public variables",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/deque.png"
     },
     {
-        "id": 15,
+        "column1": 15,
         "year": "Fall 2023 ",
         "nameOfProject": 2048,
         "task": "Create the backend functionality of the 2048 game integrating board creation, merging tiles, and score.",
         "topicsUsed": "Java, Git/github, classes",
         "challenges": "1. Responding to multiple tiles merging when a certain button is clicked. 2. Converting 2D board to 1D backend logic.",
         "outcomeuniqueAdditions": "I created a grid and assigned each tile a number from the left corner. From there I integrated random tile generation so that tiles will generate for each valid move. The challenging part was responding to a tilted board since all the tiles could move and merges can occur. I handled this through focusing on one direction, getting the tile to move one tile in each direction, then multiple tiles, and finally integrating the merges starting from the top most merge. The main skills I learned were 2D array manipulation and modulation.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/2048.png"
     },
     {
-        "id": 16,
+        "column1": 16,
         "year": "Fall 2023",
         "nameOfProject": "BioEHS Website",
         "task": "Update current club website and develop accessible repository for tech team.",
         "topicsUsed": "Figma, CSS, HTML, JS, Design ",
         "challenges": "1. Creating git/github repository 2. Runtime.",
         "outcomeuniqueAdditions": "I utilized Figma to design the website without any functionality. From there, I implemented HTML and CSS to design and implement basic functionality. In regards to runtime, I limited the use of large file components like carousels to have the site run faster. The main skill I learned was the basics of HTML.",
-        "groupings": "Front-End Developer"
+        "groupings": "Front-End Developer",
+        "resource": "https://bioehs.studentorg.berkeley.edu",
+        "pictures": "../images/projectPics/bioehswebsite.png"
     },
     {
-        "id": 17,
+        "column1": 17,
         "year": "Summer 2023 ",
         "nameOfProject": "Early Diagnosis of HCC",
         "task": "Research a clinical validation of the early diagnosis of HCC and develop a business pitch. Pitch presentation to panel of Keck Graduate Institute Professors",
         "topicsUsed": "Literature Review,  communication, market anaysis, expectation, clinical validation, ROC curves",
         "challenges": "1. Connecting clinical information to business development information cohesively. 2. Filtering information and styled presentations.",
         "outcomeuniqueAdditions": "Over a course of a month, my team and I developed a proposition for early diagnosis of HCC, backing it up with scientific literature and market research. In a 30 minute presentation to a panel of 8 professors we defended our research and gave our final suggestion in terms of cost and profit. Through this project I gained skills in presentation and business development.",
-        "groupings": "Innovator"
+        "groupings": "Innovator",
+        "resource": "https://docs.google.com/presentation/d/1n7mFjWqhP74R2F7oLns3W8yCpCdU7A3NFUIHq9Z0MFo/edit?usp=sharing",
+        "pictures": "../images/projectPics/hcc.jpg"
     },
     {
-        "id": 18,
+        "column1": 18,
         "year": "Summer 2023 ",
         "nameOfProject": "Google Chrome Extension",
         "task": "Design a solution for students to be able to enroll in classes and look at class data at the same time",
         "topicsUsed": "CSS, HTML, JS, iFrames",
         "challenges": "1. Understanding fundamentals of web development 2. Design impllementation.",
         "outcomeuniqueAdditions": "I created a browser extension that uses a Bing iFrame to overlay searches on top of one's current tabs. I integrated a local storage through a txt that is rerendered when opened along with utilized Bing instead of Google to surpass search security. ",
-        "groupings": "Front-End Developer"
+        "groupings": "Front-End Developer",
+        "resource": "https://chromewebstore.google.com/detail/teetertoggle/heedhfnpkggpdhlmpfdedjfcicclkfcb?hl=en-US&pli=1",
+        "pictures": "../images/projectPics/teetertoggle.jpg"
     },
     {
-        "id": 19,
+        "column1": 19,
         "year": "Spring 2023",
         "nameOfProject": "Scheme Interpreter",
         "task": "Create a backend program that inputs and outputs scheme but uses python functionality.",
         "topicsUsed": "Python, Scheme, classes, recursion, python-procedures, dynamic scoping, lambda functions",
         "challenges": "1. Over-stepping past base case due to flattening of scheme syntax 2. Structure of scheme to breakdown and rebuild expressions",
         "outcomeuniqueAdditions": "This project required a strong understanding of both python and scheme. Since scheme is like assembly language and python combined, it followed a similar structure in regards to arithmetic and function creation. The main skill I developed through this project is recursion as it was required to parse through the scheme and find what characters were necessary for python action. ",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/scheme.png"
     },
     {
-        "id": 20,
+        "column1": 20,
         "year": "Spring 2023",
         "nameOfProject": "ANTS",
         "task": "Replicate popular game Plants versus Zombies utilizing Ants and Bees.",
         "topicsUsed": "Python, classes, object-oriented program, scoring programs",
         "challenges": "1. Interaction between objects within programs 2. visualization of game board within program",
         "outcomeuniqueAdditions": "This project required many moving parts as it required different type of insects like bees or ants with special abilities, starting locations for each of the game pieces, and a gameboard. To complete this project, I started by understanding the game schematics, such as how the pieces will move and the general abilities of the bees or the ants. Then I began to develop the ant and bee class to which bees or ants with special abilities can inherit from by utilizing python's inheritance structure. Since objects interact with each other, I developed functions within the classes that returned the location of the bee or ant or the health if it is on a game tile so that objects can interact with one another.  The main skill I learned through this was OOP.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/ants.png"
     },
     {
-        "id": 21,
+        "column1": 21,
         "year": "Spring 2023",
         "nameOfProject": "CATS",
         "task": "Create a program that measure typing speed, integrates autocorrect, and allows for multiplayer",
         "topicsUsed": "Python, .txt filtering, user-input, timing, loops, arrays, dictionaries, recursion, abstraction",
         "challenges": "1. .txt analysis to output type tasks 2. assuming words based on the typed words",
         "outcomeuniqueAdditions": "For this project, I utilized string indexing and higher order functions to compare user typed words and the paragraph the program wanted it to write. In doing so, I intertwined  complex functions like replacing a word with an autocorrected one into smaller, easier to debug functions. The main skill I learned from this was the use of higher order functions.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/cats.png"
     },
     {
-        "id": 22,
+        "column1": 22,
         "year": "Spring 2023",
         "nameOfProject": "HOG",
         "task": "Replicate 2 player dice game where score is determined by the sum of dice outputs with some caveats.",
         "topicsUsed": "Python, Higher-Order Functions, User-Input",
         "challenges": "1. Python syntax 2. Referencing to functons",
         "outcomeuniqueAdditions": "This project was split into a series of modulated tasks with the most challenging being the strategy section where the number of dice can vary based on user throws. For this section I utilized higher order functions. I created the inner function first with the desired output and arguments and then wrapped it within another function to return the original function in the wrapped one. The main skill I learned from this was abstraction and modulation.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/hog.png"
     },
     {
-        "id": 23,
+        "column1": 23,
         "year": "Spring 2023",
         "nameOfProject": "Acoustic Positioning System",
         "task": "Localize a reciever node from stationary beams emitting different frequencies",
         "topicsUsed": "Python, Jupyter Notebook, Linear Algebra, Sensing",
         "challenges": "1. Consistency in derived location 2. Limits for receiver node locations",
         "outcomeuniqueAdditions": "We utilized a circuit that can sense the volume of different frequencies. Since each beam was emitting the same frequency we recorded the training frequency. After putting the receiver node down, we allowed it to get the wave data and then used Jupyter Notebook, numpy library to cross correlate the frequency waves and the received waves to output the 2D location of the receiver node. The main skill I learned from this was cross-correlation computation.",
-        "groupings": "Electrical Engineer"
+        "groupings": "Electrical Engineer",
+        "pictures": "../images/projectPics/aps.png"
     },
     {
-        "id": 24,
+        "column1": 24,
         "year": "Spring 2023 ",
         "nameOfProject": "Resistive and Capacitive Touch Screen",
         "task": "Derive a replication of touchscreens with resistors and then with capacitors that can return the x,y location of touch. Compare and analyze similarities and differences.",
         "topicsUsed": "Python, Jupyter Notebook, Breadboard,  Circuitry, Microcontrollers, Electrical Measurements",
         "challenges": "1. Physical comparison and use cases of resistive and capacitive touchscreen 2. Interpreting Voltmeter measurements ",
         "outcomeuniqueAdditions": "I created a resistive circuit by soldering 3 parallel groups of 2 resistors in series and then rotating the system and soldering another 3 parallel groups of 2 resistor resistors. Because of the voltage drop that occurs over resistors, I was able to calculate the expected voltage across each of the 9 locations on the platform. I attached a voltmeter to the ends of the resistive circuit and tested the accuracy of the nine locations. Similarly, for the capacitive touch screen I created a circuit and covered the top of it with an insulating film (plexiglass). Because the finger is also insulating, there is another change in voltage following the Q=CV formula which is measurable. The main skill I learned from this was basic EE measurements and tools.",
-        "groupings": "Electrical Engineer"
+        "groupings": "Electrical Engineer",
+        "pictures": "../images/projectPics/touchscreen.jpg"
     },
     {
-        "id": 25,
+        "column1": 25,
         "year": "Spring 2023",
         "nameOfProject": "Light Image Reconstruction ",
         "task": "Reconstruct a drawing drawn with sharpie using linear algebra concepts, projector, and a light sensor circuit.",
         "topicsUsed": "Python, Jupyter Notebook, Linear Algebra, Circuitry, Microcontrollers",
         "challenges": "1. Introduction to circuits/ electrical protocal 2. Numpy library usage on Jupyter Notebook",
         "outcomeuniqueAdditions": "My partner and I powered a circuit with a sensing LED and we used a voltmeter to measure the voltage across the sensor. From there, we split our picture into 100 by 100 squares and used a projector to shine onto a series of squares and got the measured reflection. We used numpy lin alg to reconstruct the squares based on the light reflection received by the light sensor. We experiemented different sequences of squares to determine independent squares and optimize time to take measurements. The main skill I learned from this was linear (in)dependence.",
-        "groupings": "Electrical Engineer"
+        "groupings": "Electrical Engineer",
+        "pictures": "../images/projectPics/imagereconstruction.jpg"
     },
     {
-        "id": 26,
+        "column1": 26,
         "year": "Fall 2022",
         "nameOfProject": "Matlab Algorithms",
         "task": "Solve a series of challenges via matlab. Each task had the problem specifications, desired output, and freedom as to which algorithms to incorporate. Problems included finding the area of a function using Riemann sums, counting the number of expressions used to return the number 1 when using Collatz Conjecture, and sorting a matrix with the center being the least and increasing in a counter-clockwise manner.",
         "topicsUsed": "Matlab, Sorting Algorithms, Computational Theory",
         "challenges": "1. Matlab syntax 2. Runtime",
         "outcomeuniqueAdditions": "With this being my first programming project I began it by outlining how I would solve these problems by hand using smaller cases and coded the approach that came to me intuitively. This came with patience and perseverance as I attempted to grasp the understanding of matlab. Then I reviewed the topics from class that could be applicable to each task such as recursion or sorting algorithms and edited my code to align with these topics. Based on runtime and code elegancy, I tested different algorithms to get the desired outcome. The main skill I learned from this was the basics of Matlab.",
-        "groupings": "Software Engineer (General)"
+        "groupings": "Software Engineer (General)",
+        "pictures": "../images/projectPics/matlab.jpg"
     },
     {
-        "id": 27,
+        "column1": 27,
         "year": "Fall 2022",
         "nameOfProject": "Seeing Nightmares",
         "task": "In teams of 6, find a product with clinical validation for a specific problem and finding a use case for a different problem. From their we had to Develop a literature review type of research paper that provided evidence to the potential for our use case along with a pitch to a panel of graduate students.",
         "topicsUsed": "Literature review; Bio-medical Devices; Research Paper Process and Design, Communication",
         "challenges": "1. Filtering through research to find credible and accessible resources 2. Integrating research paper style and presentation style",
         "outcomeuniqueAdditions": "Being inspired by Jack Gallant's word with dream analysis, we chose to repurpose the fMRI for dream analysis. Communication with the subconscious is extremely difficult; however a product like this would help people with mental illnesses or disabilites communicate their pain or emotion so that doctors can provide them catered care. Through this project I learned about fMRI bold signals and other medical imaging systems. The main skill I learned was how to filter resources and work with a team efficiently.",
-        "groupings": "Innovator"
+        "groupings": "Innovator",
+        "resource": "https://docs.google.com/document/d/1esBuDaQqFBH4baj6kyNDC1pvBDY2ogrcopXFuaZ5FL8/edit?usp=sharing",
+        "pictures": "../images/projectPics/seeingnightmares.png"
     }
 ]

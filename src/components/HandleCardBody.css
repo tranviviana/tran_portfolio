@@ -67,5 +67,20 @@
   opacity: 1;
   visibility: visible;
 }
-
+.career-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.project-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
 

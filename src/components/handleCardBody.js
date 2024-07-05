@@ -31,24 +31,24 @@ export default function HandleCardBody({ items, image, name }) {
                         </div>
                         <div className='career-modal-body'>
                         {filteredItems.map(item => (
-                                <div key={item.id}>
+                                <div key={item.id} className='project-holder'>
                                     
                                     <h2>{item.nameOfProject}</h2>
-                                    <div>
+                                    <div className='info'>
                                         <h3>Task: </h3>
-                                    <p>{item.task}</p>
+                                        <p>{item.task}</p>
                                     </div>
-                                    <div>
+                                    <div className='info'>
                                         <h3>Challenges Encountered: </h3>
                                     <p>{item.challenges}</p>
                                     </div>
-                                    <div>
+                                    <div className='info'>
                                     <h3>Process and Outcome: </h3>
                                     <p>{item.outcomeuniqueAdditions}</p>
                                     </div>
-                                    <div>
+                                    <div className='info'>
                                         <h3>Topics Used: </h3>
-                                    <p>{item.topicsUsed}</p>
+                                        <p>{item.topicsUsed}</p>
                                     </div>
                                     
                                 </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './HandleCardBody.css'
 import CardBody from './CardBody.js';
 
@@ -13,9 +13,18 @@ export default function HandleCardBody({ items, image, name }) {
         
     };
 
-    const handleCloseModal = () => {
-        setIsOpen(false);
+    const handleCloseModal = (e) => {
+        if (e.target.id === 'overlay' || e.target.className === 'close-button') {
+            setIsOpen(false);
+        }
     };
+
+    useEffect(() => {
+        document.addEventListener('click', handleCloseModal);
+        return () => {
+            document.removeEventListener('click', handleCloseModal);
+        };
+    }, []);
     const itemArray = Array.from(items);
     const filteredItems = itemArray.filter(item => item.groupings === name);
     

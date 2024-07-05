@@ -34,3 +34,7 @@ export default function Modal({ closed_image, open_text, link_text }) {
         </div>
     );
 }
+
+
+
+

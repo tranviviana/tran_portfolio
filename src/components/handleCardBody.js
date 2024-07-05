@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './HandleCardBody.css'
-import cardbody from './CardBody.js';
+import CardBody from './CardBody.js';
 
 export default function HandleCardBody({ items, image, name }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ export default function HandleCardBody({ items, image, name }) {
             <CardBody image={image} name={name}/>
             </button>
                 {isOpen && (
-                    <div className={`career-categories ${isOpen ? 'open' : ''}`} id="career-modal">
+                    <div className={`career-modal ${isOpen ? 'open' : ''}`} id="career-modal">
                         <div className='career-modal-header'>
                             <h2>{name}</h2>
                             <button onClick={handleCloseModal} className="close-button">&times;</button>
@@ -47,5 +47,5 @@ export default function HandleCardBody({ items, image, name }) {
                 {isOpen && <div className={`overlay ${isOpen ? 'open' : ''}`} id="overlay"></div>}
             </div>
         
-    )
+    );
 }

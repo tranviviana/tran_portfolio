@@ -33,11 +33,23 @@ export default function HandleCardBody({ items, image, name }) {
                         {filteredItems.map(item => (
                                 <div key={item.id}>
                                     
-                                    <p>{item.nameOfProject}</p>
+                                    <h2>{item.nameOfProject}</h2>
+                                    <div>
+                                        <h3>Task: </h3>
                                     <p>{item.task}</p>
+                                    </div>
+                                    <div>
+                                        <h3>Challenges Encountered: </h3>
                                     <p>{item.challenges}</p>
-                                    <p>{item.oucomeuniqueAdditions}</p>
+                                    </div>
+                                    <div>
+                                    <h3>Process and Outcome: </h3>
+                                    <p>{item.outcomeuniqueAdditions}</p>
+                                    </div>
+                                    <div>
+                                        <h3>Topics Used: </h3>
                                     <p>{item.topicsUsed}</p>
+                                    </div>
                                     
                                 </div>
                             ))}

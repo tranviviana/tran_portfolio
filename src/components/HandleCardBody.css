@@ -74,8 +74,10 @@
 }
 .info {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.7rem;
+  width: 100%
 }
 .project-holder {
   display: flex;

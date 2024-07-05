@@ -40,11 +40,11 @@ export default function HandleCardBody({ items, image, name }) {
                                     </div>
                                     <div className='info'>
                                         <h3>Challenges Encountered: </h3>
-                                    <p>{item.challenges}</p>
+                                        <p>{item.challenges}</p>
                                     </div>
                                     <div className='info'>
-                                    <h3>Process and Outcome: </h3>
-                                    <p>{item.outcomeuniqueAdditions}</p>
+                                        <h3>Process and Outcome: </h3>
+                                        <p>{item.outcomeuniqueAdditions}</p>
                                     </div>
                                     <div className='info'>
                                         <h3>Topics Used: </h3>

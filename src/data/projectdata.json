@@ -223,7 +223,7 @@
         "id": 23,
         "year": "Spring 2023",
         "nameOfProject": "Acoustic Positioning System",
-        "task": "Localize a reciever node from 4 stationary beams emitting different frequencies",
+        "task": "Localize a reciever node from stationary beams emitting different frequencies",
         "topicsUsed": "Python, Jupyter Notebook, Linear Algebra, Sensing",
         "challenges": "1. Consistency in derived location 2. Limits for receiver node locations",
         "outcomeuniqueAdditions": "We utilized a circuit that can sense the volume of different frequencies. Since each beam was emitting the same frequency we recorded the training frequency. After putting the receiver node down, we allowed it to get the wave data and then used Jupyter Notebook, numpy library to cross correlate the frequency waves and the received waves to output the 2D location of the receiver node. The main skill I learned from this was cross-correlation computation.",

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './handleCardBody.css'
-import CardBody from './CardBody.js';
+import './HandleCardBody.css'
+import cardbody from './CardBody.js';
+
 export default function HandleCardBody({ items, image, name }) {
     const [isOpen, setIsOpen] = useState(false);
 

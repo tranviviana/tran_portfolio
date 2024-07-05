@@ -1,4 +1,4 @@
-import './cardBody.css';
+import './CardBody.css';
 export default function CardBody({image, name}){
     return(
         <div className='project-card'>

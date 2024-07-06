@@ -6,7 +6,6 @@ import react from '../images/skills/react.png';
 import riscv from '../images/skills/risc-v.png';
 import arduino from '../images/skills/arduino.png';
 import c from '../images/skills/c.png';
-import empty from '../images/skills/empty.png';
 import logism from '../images/skills/logism.png';
 import './Skills.css';
 import vscode from '../images/skills/vscode.png';

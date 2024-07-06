@@ -4,8 +4,6 @@ import gmail from '../images/contactMe/gmail.png';
 import linkedin from '../images/contactMe/linkedin.png';
 import github from '../images/skills/github.png';
 import Modal from '../components/Modal';
-
-{/*modal with url and then click on to send*/}
 export default function ContactMe() {
     return (
         <>

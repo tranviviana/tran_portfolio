@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--white2blue);
+    height: 60vh;
 }
 .skill-images-container {
     display: grid;
@@ -12,7 +13,7 @@
     width: 80%;
     max-width: 80vw;
     margin-top: 1rem;
-    max-height: 50vh;
+    max-height: 40vh;
     
   }
   

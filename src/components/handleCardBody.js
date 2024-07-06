@@ -80,4 +80,4 @@ export default function HandleCardBody({ items, image, name }) {
             </div>
         
     );
-}
+  }

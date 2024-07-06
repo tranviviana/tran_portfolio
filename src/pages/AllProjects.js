@@ -4,7 +4,9 @@ export default function AllProjects() {
     const itemArray = Array.from(projectdata);
     return (
         <>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
         <h1>All Projects</h1>
+        </div>
         <div className='all-projects'>
         {itemArray.map(item => (
             <div key={item.column1} className='project-holder'>

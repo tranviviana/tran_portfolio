@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './HandleCardBody.css'
-import CardBody from './CardBody.js';
+import CardBody from './CardBody';
 
 
 

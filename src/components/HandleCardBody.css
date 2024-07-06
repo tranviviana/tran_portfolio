@@ -10,15 +10,16 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 80%;
-  max-width: 600px;
+  max-width: 60vw;
   transition: transform 1s ease-in, opacity 1s ease-in;
   max-height: 90vh;
   overflow-y: auto;
 }
 .project-picture {
-  width: 60vw;
+  width: 40vw;
   height: 40vw;
   object-fit: contain;
+  overflow-wrap: break-word;
 }
 .cards {
   height: 40vh;
@@ -89,5 +90,8 @@
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
+}
+p {
+  font-weight: normal !important;
 }
 

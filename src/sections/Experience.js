@@ -3,7 +3,7 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function Experience() {
     return (
         <>
-        <div style={{marginTop: '4rem'}}>
+        <div style={{marginTop: '6rem'}}>
         <div style={{display: 'flex', alignItems: 'center', justifyContent:'center'}}>
         <h1 id='experience' >Experience</h1>
         </div>

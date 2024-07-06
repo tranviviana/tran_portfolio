@@ -1,6 +1,5 @@
 import React from "react";
 import myResume from "../images/generalImages/tranviviana.pdf";
-{/*Resume Page stylings in styles.css*/ }
 
 export default function Resume() {
     return (

@@ -1,0 +1,5 @@
+navbar when switching from inverted to regular
+toggle button
+image loading for project
+project page input images
+logo

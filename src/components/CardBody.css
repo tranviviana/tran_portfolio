@@ -1,0 +1,10 @@
+.project-card {
+    height: 90%;
+    width: 90%;
+    
+}
+.project-card-images {
+    height: 90%;
+    width: 100%;
+    object-fit: scale-down;
+}

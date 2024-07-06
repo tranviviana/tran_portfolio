@@ -15,6 +15,7 @@ export default function AboutMe() {
         <HandleCardBody items={projectdata} image={frontend} name='Front-End Developer'/>
         <HandleCardBody items={projectdata} image={innovator} name='Innovator'/>
         </div>
+        <h4>Click for related projects!</h4>
         </div>
     )
 }

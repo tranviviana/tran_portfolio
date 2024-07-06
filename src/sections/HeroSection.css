@@ -17,6 +17,7 @@
   }
 .hero-left {
     grid-column: 1; 
+    margin-left: 1.5rem;
     
 }
 .hero-right {

@@ -12,7 +12,7 @@ export default function Modal({ closed_image, open_text, link_text }) {
     };
 
     return (
-        <div>
+        <div className='contact-divs'>
             <button className='img-btn' onClick={handleOpenModal}>
                 <img className='contact-images' src={closed_image} alt="Closed Modal" style={{ width: '100%', height: '100%', minWidth: '25.5px', maxWidth: '68px', minHeight: '25.875px', maxHeight: '69px' }}/>
             </button>

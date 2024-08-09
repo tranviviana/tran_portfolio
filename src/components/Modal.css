@@ -73,7 +73,7 @@
 }
 .contact-images {
     height: 5vh;
-    width: 6.5vh;
+    width: 6.25vh;
     
 
 }
@@ -82,4 +82,9 @@
     background-color: transparent;
     color: none;
     cursor: pointer;
+}
+.contact-divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

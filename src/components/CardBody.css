@@ -1,10 +1,22 @@
 .project-card {
     height: 90%;
     width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     
 }
 .project-card-images {
     height: 90%;
     width: 100%;
     object-fit: scale-down;
+}
+h3 {
+    font-size: 1rem; 
+    text-align: center; 
+    margin: 0.5rem 0; 
+    word-wrap: break-word; 
+    
 }

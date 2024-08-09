@@ -80,9 +80,9 @@
 }
 .info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
-  gap: 0.7rem;
+  gap: 0.1rem;
   width: 100%
 }
 .project-holder {

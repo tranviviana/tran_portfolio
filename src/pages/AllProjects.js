@@ -14,7 +14,7 @@ export default function AllProjects() {
                 <h2>{item.nameOfProject}</h2>
                 <div className='info'>
                     <h3>Task: </h3>
-                    <p>{item.task}</p>
+                    <h3 style={{fontWeight: 'normal'}}>{item.task}</h3>
                 </div>
                 <div className='info'>
                     <h3>Category: </h3>
@@ -23,11 +23,11 @@ export default function AllProjects() {
                 {/*<embed src={item.pictures} className='project-picture'/>*/}
                 <div className='info'>
                     <h3>Challenges Encountered: </h3>
-                    <p>{item.challenges}</p>
+                    <h3 style={{fontWeight: 'normal'}}>{item.challenges}</h3>
                 </div>
                 <div className='info'>
                     <h3>Process and Outcome: </h3>
-                    <p>{item.outcomeuniqueAdditions}</p>
+                    <h3 style={{fontWeight: 'normal'}}>{item.outcomeuniqueAdditions}</h3>
                 </div>
                 <div className='info'>
                 <h3>Link: </h3>
@@ -37,7 +37,7 @@ export default function AllProjects() {
                 </div>
                 <div className='info'>
                     <h3>Topics Used: </h3>
-                    <p>{item.topicsUsed}</p>
+                    <h3 style={{fontWeight: 'normal'}}>{item.topicsUsed}</h3>
                 </div>
                 
             </div>

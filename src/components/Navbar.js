@@ -1,10 +1,19 @@
-import {Link} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import './Navbar.css'; 
 const Navbar = ({ darkMode, toggleDarkMode }) => {
+  const navigate = useNavigate();
     const scrollToSection = (id) => {
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        navigate('/');  // Navigate to the home page
+      setTimeout(() => {
+        const homeElement = document.getElementById(id);
+        if (homeElement) {
+          homeElement.scrollIntoView({ behavior: 'smooth' });
+        }
+        }, 100);
       }
     };
     

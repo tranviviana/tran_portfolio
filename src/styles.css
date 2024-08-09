@@ -21,7 +21,10 @@ body {
     font-family: "Montserrat";
     background-color: var(--white2blue);
     color: var(--black2white);
-    overflow-x: hidden;
+    display: flex;
+    justify-content: flex-start;
+    
+    
 }
 h1, h2, h3, h4, h5, h6, p {
     font-family: "Montserrat";

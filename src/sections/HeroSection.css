@@ -7,6 +7,9 @@
     height: 60vh; 
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+    width: 100vw;
+    overflow-x: clip;
+    min-width: 640px;
 
 }
 .name-container {
